@@ -12,14 +12,14 @@ async function getComponentIssues(component) {
 
   const url =`${baseUrl}/search?jql=component%20%3D%20${component.id}%20`
 
-  return await getRequest({url});
+  return getRequest({url});
 
 }
 
 async function getData(resultCallback) {
 
   const allComponents = await getComponents();
-  
+
   const componentsWithoutLeads = allComponents.filter(
     (component) => component.assigneeType !== "COMPONENT_LEAD"
   );

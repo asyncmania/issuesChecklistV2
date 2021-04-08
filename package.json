@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "Josiah Ilesanmi <ilesanmi.josiah@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js"
+  },
   "dependencies": {
     "axios": "0.21.1"
   }
