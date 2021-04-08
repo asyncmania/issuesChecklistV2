@@ -1,0 +1,10 @@
+{
+  "name": "issesChecListV2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Josiah Ilesanmi <ilesanmi.josiah@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "0.21.1"
+  }
+}
